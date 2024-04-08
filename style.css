@@ -21,18 +21,33 @@ h1 {
 #home {
     text-align: center;
 }
-#home ul {
-    height: 54px;
-    width: auto;
-    padding-left: 200px;
+.links{
+    text-align: center;
+}
+
+.kep{
+    text-align: center;
+    background-color: rgb(131, 113, 74);
+}
+#pancake .kep img{
+    height: 338px;
+    width: 450px;
+    object-fit: cover;
+}
+#home ul{
     text-align: left;
+    display: inline-block;
 }
 ul li, ol li {
     padding: 8px ;
 }
 
-/*img {
+img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-}*/
+
+   /* height: 338px;
+    width: 450px;
+    object-fit: cover; ---if all imges sized like pancake img*/
+}
